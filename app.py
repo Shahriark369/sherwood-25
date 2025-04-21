@@ -73,6 +73,9 @@ st.markdown("""
 
 """, unsafe_allow_html=True)
 
+# Add this line at the end to display your credit/footer
+st.markdown("Made with ❤️ by [Shahriar Kabir](https://shahriarkabir.onrender.com)")
+
 st.title("📸 Video & Image Gallery with Facebook Reactions")
 menu = st.sidebar.selectbox("Select Page", ["Home", "Admin Panel"])
 
