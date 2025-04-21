@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 # Set page title and favicon (.ico)
 st.set_page_config(
     page_title="Sherwood-25",  # Page Title
-    page_icon="favicon.png",  # Path to your ICO favicon
+    page_icon="favicon.jpg",  # Path to your ICO favicon
 )
 
 # Paths
