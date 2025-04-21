@@ -53,9 +53,10 @@ st.markdown("""
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     iframe {
-        width: 100% !important;
-        height: 450px !important;
-        border-radius: 10px;
+    width: 100% !important;
+    aspect-ratio: 1 / 1 !important; /* Makes it square */
+    border-radius: 10px;
+    height: auto !important;
     }
 
     /* Responsive embed scaling for Facebook */
